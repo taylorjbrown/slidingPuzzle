@@ -209,7 +209,6 @@ function slide(){
 
 function check(){
 	var f = true;
-	console.log(pieces);
 	for  (var i =0; i<dif; i++){
 		for(var j=0; j<dif; j++){
 			if((i != empty.x || j != empty.y) && (pieces[i][j].x != i || pieces[i][j].y != j)){
