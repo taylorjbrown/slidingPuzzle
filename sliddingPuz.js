@@ -21,19 +21,19 @@ function setDif(num){
 	switch(num){
 		case 0:
 		dif = 3;
-		timeLimit = 240;
+		timeLimit = 360;
 		break;
 		case 1:
 		dif = 4;
-		timeLimit = 360;
+		timeLimit = 600;
 		break; 
 		case 2:
 		dif = 5;
-		timeLimit = 480;
+		timeLimit = 1000;
 		break; 
 		case 3:
 		dif = 6;
-		timeLimit = 600;
+		timeLimit = 1500;
 		break; 
 	}
 }
