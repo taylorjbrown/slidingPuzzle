@@ -1,0 +1,48 @@
+/*Taylor Brown*/
+.ui-page{
+	background-image: url("background.jpg") !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#background{
+	padding-left:2em;
+	padding-right:2em;
+}
+
+#puzzle{	
+	width:18em;
+	height:18em;
+	text-align: center;
+	background: lightblue;
+	display: none;
+}
+
+#can{
+	text-align: center;
+}
+
+input[type="image"]{
+	width:5em;
+	height:5em;
+	display:inline-block;
+}
+
+
+#clock h2{
+	display: inline;
+	float: right;
+}
+
+#header h1,
+#header h2{
+	display: inline;
+}
+
+#pics{
+	text-align: center;
+}
+
+button{
+	background-color: #e3e7ed !important;
+}
