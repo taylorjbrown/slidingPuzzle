@@ -45,7 +45,7 @@ function begin(num){
 	timer(reset);
 	img = new Image();
 	img.addEventListener('load',image,false);
-	img.src = "pic"+pic+".jpg";
+	img.src = "images/pic"+pic+".jpg";
 }
 
 function imageload(num){
@@ -181,7 +181,7 @@ function move(event){
 			img2.onload=function(){
 				stg.drawImage(img2,0,0,img2.width,img2.height,0,0,canvas.width,canvas.height);
 			};
-			img2.src = "won.gif";
+			img2.src = "images/won.gif";
 	}
 }
 
@@ -191,7 +191,7 @@ function gameOver(){
 	img1.onload=function(){
 		stg.drawImage(img1,0,0,img1.width,img1.height,0,0,canvas.width,canvas.height);
 	};
-	img1.src = "lost.png";
+	img1.src = "images/lost.png";
 }
 
 /*empty to coords */
