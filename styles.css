@@ -6,15 +6,15 @@
 	background-position: center center;
 }
 #background{
-	padding-left:2em;
-	padding-right:2em;
+	padding-left:1em;
+	padding-right:1em;
 }
 
 #puzzle{	
-	width:18em;
-	height:18em;
+	width:14em;
+	height:14em;
 	text-align: center;
-	background: lightblue;
+	background: #2b2b2b;
 	display: none;
 }
 
@@ -23,8 +23,8 @@
 }
 
 input[type="image"]{
-	width:5em;
-	height:5em;
+	width:3em;
+	height:3em;
 	display:inline-block;
 }
 
