@@ -1,1 +1,1 @@
-<?php include_once("canvas.html");?>
+<?php include_once("home.html");?>
